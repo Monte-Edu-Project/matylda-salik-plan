@@ -1,0 +1,15 @@
+.header {
+    height: 62px;
+    background: #BEA57D;
+}
+.selection {
+    display: flex;
+    
+}
+.button {
+    width: 328px;
+    height: 139px;
+    flex-shrink: 0;
+    background: #A4BAB7;
+    flex-direction: row;
+}
