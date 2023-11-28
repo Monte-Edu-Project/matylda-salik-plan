@@ -1,15 +1,39 @@
 .header {
-    height: 62px;
+    position:sticky;
     background: #BEA57D;
+    height:80px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
 }
-.selection {
+h1 {
+    color: #080F0F;
+    font-family: 'Ledger';
+    font-size: 20px;
+    margin: auto;
+}
+.selection-panel {
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
 }
 .button {
+    border-radius: 10px;
+    margin-top: 20px;
     width: 328px;
     height: 139px;
-    flex-shrink: 0;
     background: #A4BAB7;
-    flex-direction: row;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2 {
+    font-family: 'Ledger';
+    font-size: 18px;
+    margin:10px;
+}
+.nauczyciel-button-text {
+    font-family: 'Roboto';
+    font-size: 15px;
+    margin:10px;
 }
