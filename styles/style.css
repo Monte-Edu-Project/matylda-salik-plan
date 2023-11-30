@@ -1,0 +1,45 @@
+body {
+    font-family: 'Ledger';
+    font-size: 18px;
+    color: #080F0F
+}
+.header {
+    position:sticky;
+    background: #BEA57D;
+    height:80px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title {
+    font-size: 20px;
+    margin: auto;
+}
+.selection-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button {
+    font-family:inherit;
+    
+    border-radius: 10px;
+    border:0px;
+    margin-top: 20px;
+    width: 328px;
+    height: 139px;
+    background: #A4BAB7;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.teacher-button-title {
+    margin:10px;
+}
+.teacher-button-text {
+    font-family: 'Roboto';
+    font-size: 15px;
+    margin:10px;
+}
